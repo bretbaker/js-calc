@@ -8,10 +8,25 @@
 }
 
 .calc-body {
-  background-color: black;
+  background-color: #202020;
   color: white;
   width: 50%;
   height: 80vh;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1rem;
+}
+
+.calc-screen {
+  background-color: lightgray;
+  color: black;
+  font-size: 5rem;
+  font-family: monospace;
+  text-align: right;
+  height: 10%;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.calc-buttons {
+  padding: 1rem;
 }
