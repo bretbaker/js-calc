@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/3a51ec4eb7.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" type="text/css" href="./reset.css" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <title>JS Calc</title>
@@ -12,9 +16,46 @@
     <div class="main-container">
       <div class="calc-body">
         <div class="calc-screen">
-          <p id="calc-text">0</p>
+          <p id="calc-text"></p>
         </div>
-        <div class="calc-buttons"></div>
+        <div class="calc-buttons">
+          <div class="red-btn">+/-</div>
+          <div class="red-btn">sqrt</div>
+          <div class="red-btn">%</div>
+          <div class="red-btn">/</div>
+        </div>
+        <div class="calc-buttons">
+          <div class="red-btn">mrc</div>
+          <div class="red-btn">m-</div>
+          <div class="red-btn">m+</div>
+          <div class="red-btn">*</div>
+        </div>
+        <div class="calc-buttons">
+          <div class="white-btn">7</div>
+          <div class="white-btn">8</div>
+          <div class="white-btn">9</div>
+          <div class="red-btn">-</div>
+        </div>
+        <div class="calc-buttons">
+          <div class="white-btn">4</div>
+          <div class="white-btn">5</div>
+          <div class="white-btn">6</div>
+          <div class="red-btn">+</div>
+        </div>
+        <div class="calc-buttons">
+          <div class="white-btn">1</div>
+          <div class="white-btn">2</div>
+          <div class="white-btn">3</div>
+          <div class="red-btn">=</div>
+        </div>
+        <div class="calc-buttons">
+          <div id="power-btn" class="white-btn">
+            <i class="fas fa-power-off fa-xs"></i>
+          </div>
+          <div class="white-btn">0</div>
+          <div class="white-btn">.</div>
+          <div class="red-btn">c</div>
+        </div>
       </div>
     </div>
     <script src="app.js"></script>

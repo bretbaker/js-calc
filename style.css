@@ -10,10 +10,13 @@
 .calc-body {
   background-color: #202020;
   color: white;
-  width: 50%;
+  width: 40%;
   height: 80vh;
   padding: 2rem;
   border-radius: 1rem;
+  border-right: solid #101010 0.6rem;
+  border-bottom: solid #101010 0.6rem;
+  box-shadow: 1rem 1rem 1rem gray;
 }
 
 .calc-screen {
@@ -25,8 +28,59 @@
   height: 10%;
   border-radius: 1rem;
   padding: 1rem;
+  border-top: solid #101010 0.3rem;
+  border-left: solid #101010 0.3rem;
+  margin-bottom: 1rem;
 }
 
 .calc-buttons {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.red-btn {
+  background-color: #d80000;
+  font-family: monospace;
+  font-size: 3rem;
+  text-align: center;
+  width: 15%;
+  color: white;
   padding: 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+  border-right: solid #980000 0.3rem;
+  border-bottom: solid #980000 0.3rem;
+  transition: background-color;
+}
+
+.red-btn:hover {
+  cursor: pointer;
+}
+
+.red-btn:active {
+  background-color: #980000;
+}
+
+.white-btn {
+  background-color: white;
+  font-family: monospace;
+  font-size: 3rem;
+  text-align: center;
+  width: 15%;
+  color: black;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+  border-right: solid lightgray 0.3rem;
+  border-bottom: solid lightgray 0.3rem;
+  transition: background-color;
+}
+
+.white-btn:hover {
+  cursor: pointer;
+}
+
+.white-btn:active {
+  background-color: lightgray;
 }
