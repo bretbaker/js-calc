@@ -10,7 +10,7 @@
 .calc-body {
   background-color: #202020;
   color: white;
-  width: 40%;
+  width: 600px;
   height: 80vh;
   padding: 2rem;
   border-radius: 1rem;
@@ -20,7 +20,7 @@
 }
 
 .calc-screen {
-  background-color: lightgray;
+  background-color: whitesmoke;
   color: black;
   font-size: 5rem;
   font-family: monospace;
@@ -83,4 +83,12 @@
 
 .white-btn:active {
   background-color: lightgray;
+}
+
+#current-calc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 2rem;
+  font-family: monospace;
 }
